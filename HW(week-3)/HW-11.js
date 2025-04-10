@@ -1,18 +1,24 @@
-function findSecondLargestNumber() {
+function findSecondLargestNumber(arr) {
 
-    let  Secondlargest = [7];
+    let  Secondlargest = [0];
 
     for (let i = 1; i < arr.length; i++) {
         if ([i] > Secondlargest) {
-            Secondlargest = [i];
+            Secondlargest = arr[i];
         }
     }
 
     return  Secondlargest;
 }
 
-const arr = [3, 7, 1, 9, 4];
-console.log(findSecondLargestNumber());
+console.log(findSecondLargestNumber([3, 7, 1, 9, 4]));
+console.log(findSecondLargestNumber([5, 2, 8, 6]));
+
+
+
+
+
+
 
 
 
