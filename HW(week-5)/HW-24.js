@@ -4,5 +4,7 @@ function printValues(obj) {
     }
 }
 
+
+
 printValues({ name: "john", age: 25});
 printValues({ x: 10, y: 20});
