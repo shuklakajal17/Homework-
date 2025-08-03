@@ -14,3 +14,4 @@ function findMaxVal(obj) {
 
 console.log(findMaxVal({ a: 10, b: 50, c: 30}));
 console.log(findMaxVal({ x: 100, y: 200, z: 150}));
+
